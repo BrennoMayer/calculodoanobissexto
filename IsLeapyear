@@ -1,0 +1,18 @@
+
+function isLeap(year) {
+    
+/**************Don't change the code above****************/    
+    //Write your code here.    
+if (year % 4 !== 0) {
+return false; // isso é quando o ano (year) for diferente de 0 ao dividr por 4, ou seja, não 
+  //é divissível por 4, logo, não é ano bissexto.
+}
+else if (year % 100 !== 0) {
+  return false
+}
+else if (year % 400 !== 0) {
+  return false
+}
+  else {
+    return true; // é ano bissexto
+  }
